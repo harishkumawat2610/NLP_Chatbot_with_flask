@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is ad-hocBot", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 2 years old!", "My birth year 2017","I am not too much old i am only two years old"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", ""],
+         "responses": ["You can call me Ad-hocBot.", "I'm Ad-hocBot!", "I'm Ad-hocBot from Ad-hoc Networks pvt. Ltd."],
+         "context_set": ""
+        },
+        {"tag": "course",
+         "patterns": ["","courses","course", "How many courses are availavle ", "which course do you reccommend?", "could i get something to study","what is your facilities"],
+         "responses": ["We provide 1.ML\n2.Python\n3.Redhat\n4.Bigdata\n5.AWS", "Courses are 1.ML\n2.Python\n3.Redhat\n4.Bigdata\n5.AWS","We will teach you 1.ML\n2.Python\n3.Redhat\n4.Bigdata\n5.AWS"],
+         "context_set": ""
+        },
+        {"tag": "trainer",
+         "patterns": ["who is trainer", "Who will teach", "who is teacher"],
+         "responses": ["Ashutosh Sir", "Mr. Ashutosh Sir","Tr. Ashutosh Sir","Expert Ashutosh Sir"],
+         "context_set": ""
+        },
+        {"tag": "opening",
+         "patterns": ["what is Opening time", "institute timing", "Coaching timing", "institute time","Coaching time"],
+         "responses": ["We are open 9am-7pm Monday-Saturday!","Monday-Saturday:9am-7pm"],
+         "context_set": ""
+        },
+        {"tag": "timing",
+         "patterns": ["what is class time", "class timing", "class period"],
+         "responses": ["Class timing 9am to 11am ", "class timing 11am to 1pm", "class timing 2pm to 4pm","class timing 4pm to 6pm"],
+         "context_set": ""
+        },
+        {"tag": "fee",
+         "patterns": ["what is fees", "course fee", "course price", "fee structure","phone number",  "mobile number", "contact number","how can reach to you"],
+         "responses": ["You can contact to Sawati kaliya : 7615936646  timing 10am to 6pm"],
+         "context_set": ""
+        },
+        {"tag": "address",
+         "patterns": ["address", "location", "what is address", "where it is located", "what is your location", "where is your office location", "what it i situated"],
+         "responses": ["E-19, Kings St, Lal Bahadur Nagar, Chandrakala Colony, Durgapura, Jaipur, Rajasthan 302017"],
+         "context_set": ""
+        }
+
+   ]
+}
