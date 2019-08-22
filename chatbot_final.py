@@ -116,27 +116,3 @@ def chat(msg):
     else:
         answer="I don't understand so plz ask another question"
         return (answer)
-
-
-
-'''def chat():
-    print("Start talking with the bot (type quit to stop)!")
-    while True:
-        inp = input("You: ")
-        if inp.lower() == "quit":
-            break
-
-        results = model.predict([bag_of_words(inp, words)])[0]
-        results_index = numpy.argmax(results)
-        tag = labels[results_index]
-
-        if results[results_index] > 0.7:
-            for tg in data["intents"]:
-                if tg['tag'] == tag:
-                    responses = tg['responses']
-
-            print(random.choice(responses))
-        else:
-            print("I don't understand so plz ask another question")
-
-chat()'''
